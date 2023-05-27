@@ -40,7 +40,7 @@ def platform = platform {
 //         property 'backoffice.solr.search.index.autoinit', 'false'
 //         property 'backoffice.solr.search.index.autorebuild', 'false'
         property 'auditing.enabled', 'false'
-        property 'tomcat.generaloptions', '${tomcat.catalina} ${file.encoding} ${tomcat.logger} -Xmx4G -javaagent:${HYBRIS_BIN_DIR}/platform/ext/core/lib/${aspect.weaver.library}  -Djava.io.tmpdir="${HYBRIS_TEMP_DIR}" ${gcInterval} ${tomcat.jmx.settings}'
+//         property 'tomcat.generaloptions', '${tomcat.catalina} ${file.encoding} ${tomcat.logger} -Xmx4G -javaagent:${HYBRIS_BIN_DIR}/platform/ext/core/lib/${aspect.weaver.library}  -Djava.io.tmpdir="${HYBRIS_TEMP_DIR}" ${gcInterval} ${tomcat.jmx.settings}'
         property 'production.legacy.mode', 'false'
     }
 
